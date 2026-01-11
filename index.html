@@ -9,45 +9,54 @@
     <link rel="icon" type="image/x-icon" href="/icon/favicon.png">
 </head>
 
-<body>
+<body class="dark:bg-neutral-950 dark:text-white">
     <div class="flex flex-col gap-5 justify-between h-screen mx-5 md:pt-30 pt-5">
         <div class="flex md:flex-row flex-col gap-5 md:items-start items-center justify-center">
             <div class="flex flex-col gap-5 justify-center md:w-xs w-3xs">
-                <img src="/icon/yannis.jpeg" class="w-32 rounded-full border border-neutral-300 shadow-sm">
-                <h1 class="text-3xl font-bold text-shadow-sm">Yannis Burkhalter</h1>
-                <ul class="text-lg font-medium text-gray-800">
-                    <li class="ml-5 mb-2 text-shadow-xs transition-transform hover:scale-105">
+                <img src="/icon/yannis.jpeg"
+                    class="w-32 rounded-full border border-neutral-300 dark:border-neutral-600 shadow-sm dark:shadow-neutral-900">
+                <h1 class="text-3xl font-bold text-shadow-sm dark:shadow-neutral-900">Yannis Burkhalter</h1>
+                <ul class="text-lg font-medium text-gray-800 dark:text-gray-100">
+                    <li class="ml-5 mb-2 text-shadow-xs dark:shadow-neutral-900 transition-transform hover:scale-105">
                         <a href="mailto:yannis@burkhalter.dev">yannis@burkhalter.dev</a>
                     </li>
-                    <li class="ml-5 mb-2 text-shadow-xs transition-transform hover:scale-105">
+                    <li class="ml-5 mb-2 text-shadow-xs dark:shadow-neutral-900 transition-transform hover:scale-105">
                         <a href="tel:+41796474237">+41 79 647 42 37</a>
                     </li>
                 </ul>
             </div>
             <div class="flex flex-col gap-5 max-w-md w-full">
                 <div class="flex flex-row gap-5">
-                    <a class="p-5 border rounded-3xl text-md shadow-sm transition-transform hover:scale-105 bg-blue-50 border-blue-200 aspect-square"
+                    <a class="p-5 border rounded-3xl text-md shadow-sm dark:shadow-neutral-900 transition-transform hover:scale-105 bg-blue-50 dark:bg-blue-950 border-blue-200 dark:border-blue-900 aspect-square"
                         href="https://www.linkedin.com/in/yannis-burkhalter/" target="_blank">
                         <img src="/icon/linkedin.svg" alt="LinkedIn" title="/in/yannis-burkhalter" class="w-10 mb-1">
                         <span class="text-sm">LinkedIn</span>
                     </a>
-                    <a class="p-5 border rounded-3xl text-md shadow-sm transition-transform hover:scale-105 bg-neutral-100 border-neutral-300 aspect-square"
+                    <a class="p-5 border rounded-3xl text-md shadow-sm dark:shadow-neutral-900 transition-transform hover:scale-105 bg-neutral-100 dark:bg-neutral-900 border-neutral-300 dark:border-neutral-700 aspect-square"
                         href="https://github.com/BurkhalterY" target="_blank">
-                        <img src="/icon/github.svg" alt="GitHub" title="BurkhalterY" class="w-10 mb-1">
+                        <img src="/icon/github.svg" alt="GitHub" title="BurkhalterY" class="w-10 mb-1 dark:hidden">
+                        <img src="/icon/github-dark.svg" alt="GitHub" title="BurkhalterY"
+                            class="w-10 mb-1 hidden dark:block">
                         <span class="text-sm">GitHub</span>
                     </a>
                 </div>
-                <a class="p-5 border rounded-3xl text-md shadow-sm transition-transform hover:scale-105 bg-white border-gray-300 flex gap-5"
+                <a class="p-5 border rounded-3xl text-md shadow-sm dark:shadow-neutral-900 transition-transform hover:scale-105 bg-white dark:bg-black border-gray-300 dark:border-neutral-700 flex gap-5"
                     href="https://leaderweb.ch/" target="_blank">
-                    <img src="/icon/leader-web.png" alt="Leader Web" title="Leader Web" class="max-w-40 object-contain">
+                    <img src="/icon/leader-web.svg" alt="Leader Web" title="Leader Web"
+                        class="max-w-40 object-contain dark:hidden">
+                    <img src="/icon/leader-web-dark.svg" alt="Leader Web" title="Leader Web"
+                        class="max-w-40 object-contain hidden dark:block">
                     <span>Leader Web<br><i>Développement sites Internet & applications</i></span>
                 </a>
-                <a class="p-5 border rounded-3xl text-md shadow-sm transition-transform hover:scale-105 bg-white border-gray-300 flex gap-5"
+                <a class="p-5 border rounded-3xl text-md shadow-sm dark:shadow-neutral-900 transition-transform hover:scale-105 bg-white dark:bg-black border-gray-300 dark:border-neutral-700 flex gap-5"
                     href="https://open-net.ch/" target="_blank">
-                    <img src="/icon/open-net.png" alt="Open Net" title="Open Net" class="max-w-40 object-contain">
+                    <img src="/icon/open-net.png" alt="Open Net" title="Open Net"
+                        class="max-w-40 object-contain dark:hidden">
+                    <img src="/icon/open-net-dark.png" alt="Open Net" title="Open Net"
+                        class="max-w-40 object-contain hidden dark:block">
                     <span>Open Net<br><i>Intégration et hébergement de l'ERP Odoo</i></span>
                 </a>
-                <a class="p-5 border rounded-3xl text-md shadow-sm transition-transform hover:scale-105 bg-white border-gray-300 flex gap-5"
+                <a class="p-5 border rounded-3xl text-md shadow-sm dark:shadow-neutral-900 transition-transform hover:scale-105 bg-white dark:bg-black border-gray-300 dark:border-neutral-700 flex gap-5"
                     href="https://e-lighting.ch/" target="_blank">
                     <img src="/icon/e-lighting.png" alt="Swiss Emergency Lighting" title="Swiss Emergency Lighting"
                         class="max-w-40 object-contain">
